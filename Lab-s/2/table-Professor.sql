@@ -7,7 +7,6 @@ CREATE TABLE public."Professor" (
 	"Patronymic" text NOT NULL,
 	"Age" smallint NOT NULL,
 	"Sex" bool,
-	"Academic degree" text NOT NULL,
 	"Post" text NOT NULL,
 	"Work experience" int4,
 	CONSTRAINT "Professor_pk" PRIMARY KEY ("ID")
