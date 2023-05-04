@@ -11,7 +11,7 @@ CAUTION: Do not modify this file unless you know what you are doing.
 <schema name="public" layer="0" fill-color="#e1e1e1" sql-disabled="true">
 </schema>
 
-<table name="Professor" layer="0" collapse-mode="1" max-obj-count="10" z-value="0">
+<table name="Professor" layer="0" collapse-mode="2" max-obj-count="9" z-value="0">
 	<schema name="public"/>
 	<role name="postgres"/>
 	<comment><![CDATA[Маленька БД "Преподователь
@@ -48,11 +48,6 @@ Age]]></comment>
 		<type name="bool" length="0"/>
 		<comment><![CDATA[Пол
 Sex]]></comment>
-	</column>
-	<column name="Academic degree" not-null="true">
-		<type name="text" length="0"/>
-		<comment><![CDATA[Учёная степень 
-Academic degree]]></comment>
 	</column>
 	<column name="Post" not-null="true">
 		<type name="text" length="0"/>
