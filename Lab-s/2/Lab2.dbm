@@ -3,7 +3,7 @@
 CAUTION: Do not modify this file unless you know what you are doing.
          Unexpected results may occur if the code is changed deliberately.
 -->
-<dbmodel pgmodeler-ver="0.9.3" use-changelog="false" last-position="0,0" last-zoom="1" max-obj-count="7"
+<dbmodel pgmodeler-ver="0.9.3" use-changelog="false" last-position="0,0" last-zoom="1" max-obj-count="6"
 	 default-schema="public" default-owner="postgres">
 <database name="new_database" is-template="false" allow-conns="true">
 </database>
@@ -16,7 +16,7 @@ CAUTION: Do not modify this file unless you know what you are doing.
 	<role name="postgres"/>
 	<comment><![CDATA[Маленька БД "Преподователь
 Small DB "Professor"]]></comment>
-	<position x="580" y="20"/>
+	<position x="180" y="580"/>
 	<column name="ID" not-null="true"
 	 identity-type="ALWAYS">
 		<type name="int4" length="0"/>
@@ -69,7 +69,7 @@ Work experience]]></comment>
 	<role name="postgres"/>
 	<comment><![CDATA[Академическая дисциплина
 Subject/Lesson]]></comment>
-	<position x="20" y="140"/>
+	<position x="200" y="40"/>
 	<column name="ID" not-null="true"
 	 identity-type="ALWAYS">
 		<type name="int4" length="0"/>
@@ -99,7 +99,7 @@ Number of hours]]></comment>
 	<role name="postgres"/>
 	<comment><![CDATA[Группа
 Group]]></comment>
-	<position x="200" y="740"/>
+	<position x="940" y="360"/>
 	<column name="ID" not-null="true"
 	 identity-type="ALWAYS">
 		<type name="int4" length="0"/>
@@ -117,9 +117,9 @@ Name]]></comment>
 <table name="Load" layer="0" collapse-mode="2" max-obj-count="6" z-value="0">
 	<schema name="public"/>
 	<role name="postgres"/>
-	<comment><![CDATA[Нагрузка
-Load]]></comment>
-	<position x="960" y="160"/>
+	<comment><![CDATA[Нагрузка: Какой-то преподаватель ведёт какую-то дисциплину у какой-то группы
+Load: Some professor teach some discipline for some group]]></comment>
+	<position x="760" y="620"/>
 	<column name="ID" not-null="true">
 		<type name="int8" length="0"/>
 		<comment><![CDATA[No comments]]></comment>
@@ -127,29 +127,20 @@ Load]]></comment>
 	<column name="Week day" default-value="1">
 		<type name="smallint" length="0"/>
 		<comment><![CDATA[День недели, в который проводиться конкретная дисциплина конкретной группе конкретным преподователем
-1 - понедельник
+1 - понедельник/Monday
 ...
-7 - воскресенье]]></comment>
+7 - воскресенье/Sunday]]></comment>
 	</column>
 	<column name="Lesson number" default-value="1">
 		<type name="smallint" length="0"/>
 		<comment><![CDATA[Номер занятия для конкретной группы, конкретного дня недели, конкретной дисциплины, конкретного преподавателя
-1-ая пара: 1
+1-ая пара/first lesson (time): 1
 ...
-n-ая пара: n]]></comment>
+n-ая пара/n-st lesson (time): n]]></comment>
 	</column>
 	<constraint name="Load_pk" type="pk-constr" table="public.&quot;Load&quot;">
 		<columns names="ID" ref-type="src-columns"/>
 	</constraint>
-
-	<customidxs object-type="column">
-		<object name="ID_Group_Group has many Professors and Disciplines and_d41d8c" index="3"/>
-		<object name="ID_Professor - Discipline_Group has many Professors an_d41d8c" index="4"/>
-	</customidxs>
-
-	<customidxs object-type="constraint">
-		<object name="Group has many Professors and Disciplines and bac_d41d8c" index="1"/>
-	</customidxs>
 	<partitioning type="RANGE">
 		<partitionkey>
 			<column name="&quot;Week day&quot;"/>
@@ -164,7 +155,7 @@ n-ая пара: n]]></comment>
 	<schema name="public"/>
 	<role name="postgres"/>
 	<comment><![CDATA[Ограничение цлостности: Может ли преподаватель по математике вести лекции по русскому языку? - Нет]]></comment>
-	<position x="580" y="400"/>
+	<position x="420" y="280"/>
 	<column name="ID" not-null="true"
 	 identity-type="ALWAYS">
 		<type name="int8" length="0"/>
@@ -180,8 +171,8 @@ n-ая пара: n]]></comment>
 	</customidxs>
 
 	<customidxs object-type="constraint">
-		<object name="Academic discipline_fk" index="3"/>
-		<object name="Professor_fk" index="2"/>
+		<object name="Academic discipline_fk" index="2"/>
+		<object name="Professor_fk" index="1"/>
 	</customidxs>
 </table>
 
@@ -215,53 +206,26 @@ n-ая пара: n]]></comment>
 	<columns names="ID_Professor,ID_Academic discipline" ref-type="src-columns"/>
 </constraint>
 
-<table name="Group has many Professors and Disciplines and backwards" layer="0" collapse-mode="2" max-obj-count="3" z-value="0">
-	<schema name="public"/>
-	<position x="980" y="640"/>
-
-	<customidxs object-type="column">
-		<object name="ID_Group" index="0"/>
-		<object name="ID_Professor - Discipline" index="1"/>
-	</customidxs>
-
-	<customidxs object-type="constraint">
-		<object name="Group has many Professors and Disciplines and backwards_pk" index="0"/>
-		<object name="Group_fk" index="1"/>
-		<object name="Professor - Discipline_fk" index="2"/>
-	</customidxs>
-</table>
-
-<relationship name="Group_has_many_many_Group_has_many_Professor - Discipline" type="rel1n" layer="0"
+<relationship name="Professor - Discipline_has_many_Load" type="rel1n" layer="0"
 	 src-col-pattern="{sc}_{st}"
 	 pk-pattern="{dt}_pk" uq-pattern="{dt}_uq"
 	 src-fk-pattern="{st}_fk"
-	 src-table="public.&quot;Group&quot;"
-	 dst-table="public.&quot;Group has many Professors and Disciplines and backwards&quot;"
-	 src-required="true" dst-required="false"
-	 identifier="true"
->
-	<label ref-type="name-label">
-		<position x="6.77919" y="-8.52614"/>
-	</label>
-</relationship>
-
-<relationship name="Professor - Discipline_has_many_many_Group_has_many_Professor -" type="rel1n" layer="0"
-	 src-col-pattern="{sc}_{st}"
-	 pk-pattern="{dt}_pk" uq-pattern="{dt}_uq"
-	 src-fk-pattern="{st}_fk"
+	 custom-color="#7164ce"
 	 src-table="public.&quot;Professor - Discipline&quot;"
-	 dst-table="public.&quot;Group has many Professors and Disciplines and backwards&quot;"
-	 src-required="true" dst-required="false"
-	 identifier="true"
-/>
-
-<relationship name="A professor's discipline can take place more than once a week" type="rel1n" layer="0"
-	 src-col-pattern="{sc}_{st}"
-	 pk-pattern="{dt}_pk" uq-pattern="{dt}_uq"
-	 src-fk-pattern="{st}_fk"
-	 custom-color="#28c2a2"
-	 src-table="public.&quot;Group has many Professors and Disciplines and backwards&quot;"
 	 dst-table="public.&quot;Load&quot;"
 	 src-required="false" dst-required="false"/>
+
+<relationship name="Group_has_many_Load" type="rel1n" layer="0"
+	 src-col-pattern="{sc}_{st}"
+	 pk-pattern="{dt}_pk" uq-pattern="{dt}_uq"
+	 src-fk-pattern="{st}_fk"
+	 custom-color="#3a4c45"
+	 src-table="public.&quot;Group&quot;"
+	 dst-table="public.&quot;Load&quot;"
+	 src-required="false" dst-required="false">
+	<label ref-type="name-label">
+		<position x="-5.8797" y="-14.3323"/>
+	</label>
+</relationship>
 
 </dbmodel>
