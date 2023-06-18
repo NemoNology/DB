@@ -3,7 +3,7 @@
 CAUTION: Do not modify this file unless you know what you are doing.
          Unexpected results may occur if the code is changed deliberately.
 -->
-<dbmodel pgmodeler-ver="0.9.3" use-changelog="false" last-position="129,0" last-zoom="1" max-obj-count="6"
+<dbmodel pgmodeler-ver="0.9.3" use-changelog="false" last-position="0,0" last-zoom="1" max-obj-count="4"
 	 default-schema="public" default-owner="postgres">
 <database name="new_database" is-template="false" allow-conns="true">
 </database>
@@ -16,7 +16,7 @@ CAUTION: Do not modify this file unless you know what you are doing.
 	<role name="postgres"/>
 	<comment><![CDATA[Маленька БД "Преподователь
 Small DB "Professor"]]></comment>
-	<position x="1040" y="20"/>
+	<position x="460" y="120"/>
 	<column name="ID" not-null="true"
 	 identity-type="ALWAYS">
 		<type name="int4" length="0"/>
@@ -69,7 +69,7 @@ Work experience]]></comment>
 	<role name="postgres"/>
 	<comment><![CDATA[Академическая дисциплина
 Subject/Lesson]]></comment>
-	<position x="380" y="420"/>
+	<position x="160" y="120"/>
 	<column name="ID" not-null="true"
 	 identity-type="ALWAYS">
 		<type name="int4" length="0"/>
@@ -81,8 +81,8 @@ Name]]></comment>
 	</column>
 	<column name="Type">
 		<type name="bool" length="0"/>
-		<comment><![CDATA[Тип занятия: лекция/практика
-Lesson type: lecture/practice]]></comment>
+		<comment><![CDATA[Тип занятия: 0 - лекция / 1 - практика
+Lesson type: 0 - lecture / 1 - practice]]></comment>
 	</column>
 	<column name="Number of hours">
 		<type name="int2" length="0"/>
@@ -99,7 +99,7 @@ Number of hours]]></comment>
 	<role name="postgres"/>
 	<comment><![CDATA[Группа
 Group]]></comment>
-	<position x="380" y="20"/>
+	<position x="500" y="360"/>
 	<column name="ID" not-null="true"
 	 identity-type="ALWAYS">
 		<type name="int4" length="0"/>
@@ -114,34 +114,33 @@ Name]]></comment>
 	</constraint>
 </table>
 
-<table name="Load" layer="0" collapse-mode="2" max-obj-count="4" z-value="0">
+<table name="Load" layer="0" collapse-mode="2" max-obj-count="3" z-value="0">
 	<schema name="public"/>
 	<role name="postgres"/>
 	<comment><![CDATA[Нагрузка
 Load]]></comment>
-	<position x="520" y="200"/>
-	<column name="Week day" not-null="true" default-value="1">
+	<position x="160" y="340"/>
+	<column name="ID" not-null="true">
+		<type name="int8" length="0"/>
+		<comment><![CDATA[No comments]]></comment>
+	</column>
+	<column name="Week day" default-value="1">
 		<type name="smallint" length="0"/>
 		<comment><![CDATA[День недели, в который проводиться конкретная дисциплина конкретной группе конкретным преподователем
 1 - понедельник
 ...
 7 - воскресенье]]></comment>
 	</column>
-	<column name="Lesson number" not-null="true" default-value="1">
+	<column name="Lesson number" default-value="1">
 		<type name="smallint" length="0"/>
 		<comment><![CDATA[Номер занятия для конкретной группы, конкретного дня недели, конкретной дисциплины, конкретного преподавателя
 1-ая пара: 1
 ...
 n-ая пара: n]]></comment>
 	</column>
-
-	<customidxs object-type="column">
-		<object name="ID_Group" index="2"/>
-	</customidxs>
-
-	<customidxs object-type="constraint">
-		<object name="Group_fk" index="0"/>
-	</customidxs>
+	<constraint name="Load_pk" type="pk-constr" table="public.&quot;Load&quot;">
+		<columns names="ID" ref-type="src-columns"/>
+	</constraint>
 	<partitioning type="RANGE">
 		<partitionkey>
 			<column name="&quot;Week day&quot;"/>
@@ -151,82 +150,5 @@ n-ая пара: n]]></comment>
 		</partitionkey>
 	</partitioning>
 </table>
-
-<relationship name="Group has many Loads" type="rel1n" layer="0"
-	 src-col-pattern="{sc}_{st}"
-	 pk-pattern="{dt}_pk" uq-pattern="{dt}_uq"
-	 src-fk-pattern="{st}_fk"
-	 custom-color="#1fae0f"
-	 src-table="public.&quot;Group&quot;"
-	 dst-table="public.&quot;Load&quot;"
-	 src-required="true" dst-required="false">
-	<label ref-type="name-label">
-		<position x="-5.34815" y="-29.3323"/>
-	</label>
-</relationship>
-
-<table name="Professor - Lesson" layer="0" collapse-mode="2" max-obj-count="3" z-value="0">
-	<schema name="public"/>
-	<role name="postgres"/>
-	<comment><![CDATA[Ограничение цлостности: Может ли преподаватель по математике вести лекции по русскому языку? - Нет]]></comment>
-	<position x="1020" y="420"/>
-	<column name="ID" not-null="true"
-	 identity-type="ALWAYS">
-		<type name="int8" length="0"/>
-		<comment><![CDATA[Идентификатор для пары Преподователь и преподаваемая им Дисциплина]]></comment>
-	</column>
-	<constraint name="Professor - Lesson_pk" type="pk-constr" table="public.&quot;Professor - Lesson&quot;">
-		<columns names="ID" ref-type="src-columns"/>
-	</constraint>
-
-	<customidxs object-type="column">
-		<object name="ID_Academic discipline" index="2"/>
-		<object name="ID_Professor" index="1"/>
-	</customidxs>
-
-	<customidxs object-type="constraint">
-		<object name="Academic discipline_fk" index="1"/>
-		<object name="Professor_fk" index="0"/>
-	</customidxs>
-</table>
-
-<relationship name="Professor can teach (have) many Academic disciplines" type="rel1n" layer="0"
-	 src-col-pattern="{sc}_{st}"
-	 pk-pattern="{dt}_pk" uq-pattern="{dt}_uq"
-	 src-fk-pattern="{st}_fk"
-	 custom-color="#80f3cc"
-	 src-table="public.&quot;Professor&quot;"
-	 dst-table="public.&quot;Professor - Lesson&quot;"
-	 src-required="false" dst-required="false">
-	<label ref-type="name-label">
-		<position x="-1.75705" y="-77.1323"/>
-	</label>
-</relationship>
-
-<relationship name="Academic discipline can be taught by (had) many professors" type="rel1n" layer="0"
-	 src-col-pattern="{sc}_{st}"
-	 pk-pattern="{dt}_pk" uq-pattern="{dt}_uq"
-	 src-fk-pattern="{st}_fk"
-	 custom-color="#482450"
-	 src-table="public.&quot;Academic discipline&quot;"
-	 dst-table="public.&quot;Professor - Lesson&quot;"
-	 src-required="false" dst-required="false">
-	<label ref-type="name-label">
-		<position x="-4.79238" y="-7.37081"/>
-	</label>
-</relationship>
-
-<relationship name="A professor's discipline can take place more than once a week" type="rel1n" layer="0"
-	 src-col-pattern="{sc}_{st}"
-	 pk-pattern="{dt}_pk" uq-pattern="{dt}_uq"
-	 src-fk-pattern="{st}_fk"
-	 custom-color="#61d7fc"
-	 src-table="public.&quot;Professor - Lesson&quot;"
-	 dst-table="public.&quot;Load&quot;"
-	 src-required="false" dst-required="false">
-	<label ref-type="name-label">
-		<position x="-14.7631" y="-20.7323"/>
-	</label>
-</relationship>
 
 </dbmodel>
