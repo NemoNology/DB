@@ -120,7 +120,8 @@ Name]]></comment>
 	<comment><![CDATA[Нагрузка: Какой-то преподаватель ведёт какую-то дисциплину у какой-то группы
 Load: Some professor teach some discipline for some group]]></comment>
 	<position x="760" y="620"/>
-	<column name="ID" not-null="true">
+	<column name="ID" not-null="true"
+	 identity-type="ALWAYS">
 		<type name="int8" length="0"/>
 		<comment><![CDATA[No comments]]></comment>
 	</column>
@@ -141,6 +142,16 @@ n-ая пара/n-st lesson (time): n]]></comment>
 	<constraint name="Load_pk" type="pk-constr" table="public.&quot;Load&quot;">
 		<columns names="ID" ref-type="src-columns"/>
 	</constraint>
+
+	<customidxs object-type="column">
+		<object name="ID_Group" index="4"/>
+		<object name="ID_Professor - Discipline" index="3"/>
+	</customidxs>
+
+	<customidxs object-type="constraint">
+		<object name="Group_fk" index="2"/>
+		<object name="Professor - Discipline_fk" index="1"/>
+	</customidxs>
 	<partitioning type="RANGE">
 		<partitionkey>
 			<column name="&quot;Week day&quot;"/>
