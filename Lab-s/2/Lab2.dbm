@@ -114,7 +114,7 @@ Name]]></comment>
 	</constraint>
 </table>
 
-<table name="Load" layer="0" collapse-mode="2" max-obj-count="6" z-value="0">
+<table name="Load" layer="0" collapse-mode="2" max-obj-count="7" z-value="0">
 	<schema name="public"/>
 	<role name="postgres"/>
 	<comment><![CDATA[Нагрузка: Какой-то преподаватель ведёт какую-то дисциплину у какой-то группы
@@ -125,27 +125,32 @@ Load: Some professor teach some discipline for some group]]></comment>
 		<type name="int8" length="0"/>
 		<comment><![CDATA[No comments]]></comment>
 	</column>
-	<column name="Week day" default-value="1">
+	<column name="Week day" not-null="true" default-value="1">
 		<type name="smallint" length="0"/>
 		<comment><![CDATA[День недели, в который проводиться конкретная дисциплина конкретной группе конкретным преподователем
 1 - понедельник/Monday
 ...
 7 - воскресенье/Sunday]]></comment>
 	</column>
-	<column name="Lesson number" default-value="1">
+	<column name="Lesson number" not-null="true" default-value="1">
 		<type name="smallint" length="0"/>
 		<comment><![CDATA[Номер занятия для конкретной группы, конкретного дня недели, конкретной дисциплины, конкретного преподавателя
 1-ая пара/first lesson (time): 1
 ...
 n-ая пара/n-st lesson (time): n]]></comment>
 	</column>
+	<column name="Semester number" not-null="true">
+		<type name="smallint" length="0"/>
+		<comment><![CDATA[Номер семестра, во время которой проводиться нагрузка
+The number of the semester during which the load is carried out]]></comment>
+	</column>
 	<constraint name="Load_pk" type="pk-constr" table="public.&quot;Load&quot;">
 		<columns names="ID" ref-type="src-columns"/>
 	</constraint>
 
 	<customidxs object-type="column">
-		<object name="ID_Group" index="4"/>
-		<object name="ID_Professor - Discipline" index="3"/>
+		<object name="ID_Group" index="5"/>
+		<object name="ID_Professor - Discipline" index="4"/>
 	</customidxs>
 
 	<customidxs object-type="constraint">
@@ -209,7 +214,7 @@ n-ая пара/n-st lesson (time): n]]></comment>
 	 dst-table="public.&quot;Professor - Discipline&quot;"
 	 src-required="true" dst-required="false">
 	<label ref-type="name-label">
-		<position x="-4.79238" y="-7.37081"/>
+		<position x="0.877607" y="-16.9323"/>
 	</label>
 </relationship>
 
