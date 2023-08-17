@@ -171,7 +171,7 @@ The number of the semester during which the load is carried out]]></comment>
 	<schema name="public"/>
 	<role name="postgres"/>
 	<comment><![CDATA[Ограничение цлостности: Может ли преподаватель по математике вести лекции по русскому языку? - Нет]]></comment>
-	<position x="420" y="280"/>
+	<position x="420" y="260"/>
 	<column name="ID" not-null="true"
 	 identity-type="ALWAYS">
 		<type name="int8" length="0"/>
