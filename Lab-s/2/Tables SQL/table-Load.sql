@@ -1,6 +1,6 @@
 -- object: public."Load" | type: TABLE --
 -- DROP TABLE IF EXISTS public."Load" CASCADE;
-CREATE TABLE public."Load" (
+CREATE TABLE IF NOT EXISTS public."Load" (
 	"ID" int8 NOT NULL GENERATED ALWAYS AS IDENTITY,
 	"Week day" smallint NOT NULL DEFAULT 1,
 	"Lesson number" smallint NOT NULL DEFAULT 1,
