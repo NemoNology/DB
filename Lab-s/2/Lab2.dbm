@@ -139,7 +139,7 @@ Load: Some professor teach some discipline for some group]]></comment>
 ...
 n-ая пара/n-st lesson (time): n]]></comment>
 	</column>
-	<column name="Semester number" not-null="true">
+	<column name="Semester number" not-null="true" default-value="1">
 		<type name="smallint" length="0"/>
 		<comment><![CDATA[Номер семестра, во время которой проводиться нагрузка
 The number of the semester during which the load is carried out]]></comment>
@@ -157,14 +157,6 @@ The number of the semester during which the load is carried out]]></comment>
 		<object name="Group_fk" index="2"/>
 		<object name="Professor - Discipline_fk" index="1"/>
 	</customidxs>
-	<partitioning type="RANGE">
-		<partitionkey>
-			<column name="&quot;Week day&quot;"/>
-		</partitionkey>
- 		<partitionkey>
-			<column name="&quot;Lesson number&quot;"/>
-		</partitionkey>
-	</partitioning>
 </table>
 
 <table name="Professor - Discipline" layer="0" collapse-mode="2" max-obj-count="4" z-value="0">

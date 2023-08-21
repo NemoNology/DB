@@ -1,16 +1,14 @@
 -- object: public."Load" | type: TABLE --
 -- DROP TABLE IF EXISTS public."Load" CASCADE;
 CREATE TABLE public."Load" (
-	"ID" int8 NOT NULL GENERATED ALWAYS AS IDENTITY ,
+	"ID" int8 NOT NULL GENERATED ALWAYS AS IDENTITY,
 	"Week day" smallint NOT NULL DEFAULT 1,
 	"Lesson number" smallint NOT NULL DEFAULT 1,
 	"Semester number" smallint NOT NULL,
 	"ID_Professor - Discipline" int8,
 	"ID_Group" int4,
 	CONSTRAINT "Load_pk" PRIMARY KEY ("ID")
-
-)
-PARTITION BY RANGE ("Week day","Lesson number");
+);
 -- ddl-end --
 COMMENT ON TABLE public."Load" IS E'Нагрузка: Какой-то преподаватель ведёт какую-то дисциплину у какой-то группы\nLoad: Some professor teach some discipline for some group';
 -- ddl-end --
