@@ -741,3 +741,5 @@ INSERT INTO "Load" VALUES
 ( DEFAULT, 4, 2, 6, 59, 22 ),
 ( DEFAULT, 5, 1, 6, 45, 22 ),
 ( DEFAULT, 5, 2, 6, 61, 22 );
+
+SELECT * FROM "Load";

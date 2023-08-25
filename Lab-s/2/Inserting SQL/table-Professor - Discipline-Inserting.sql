@@ -1,5 +1,3 @@
--- DELETE FROM "Professor - Discipline" *;
-
 -- TRUNCATE TABLE "Professor - Discipline" RESTART IDENTITY;
 
 INSERT INTO "Professor - Discipline" VALUES
@@ -87,3 +85,5 @@ INSERT INTO "Professor - Discipline" VALUES
 ( DEFAULT, 14, 96 ),
 ( DEFAULT, 14, 97 ),
 ( DEFAULT, 14, 98 );
+
+SELECT * FROM "Professor - Discipline";

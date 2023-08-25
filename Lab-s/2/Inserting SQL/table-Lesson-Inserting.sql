@@ -1,5 +1,3 @@
--- DELETE FROM "Lesson" *;
-
 -- TRUNCATE TABLE "Lesson" RESTART IDENTITY;
 
 INSERT INTO "Lesson" VALUES
@@ -88,4 +86,4 @@ INSERT INTO "Lesson" VALUES
 ( DEFAULT, 'Связи с общественностью', False, 27 ),
 ( DEFAULT, 'Связи с общественностью', True, 81 );
 
-SELECT * FROM "Lesson"
+SELECT * FROM "Lesson";

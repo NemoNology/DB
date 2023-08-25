@@ -1,5 +1,3 @@
--- DELETE FROM "Professor" *;
-
 -- TRUNCATE TABLE "Professor" RESTART IDENTITY;
 
 INSERT INTO "Professor" VALUES
@@ -19,4 +17,4 @@ INSERT INTO "Professor" VALUES
 ( DEFAULT, 'София', 'Бурова', 'Романовна', 64, TRUE, 'Старший преподаватель', 3 );
 
 
-SELECT * FROM "Professor"
+SELECT * FROM "Professor";

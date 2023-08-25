@@ -1,5 +1,3 @@
--- DELETE FROM "Group" *;
-
 -- TRUNCATE TABLE "Group" RESTART IDENTITY;
 
 INSERT INTO "Group" VALUES 
@@ -20,6 +18,4 @@ INSERT INTO "Group" VALUES
 ( DEFAULT, 'ПЕД-14' ),
 ( DEFAULT, 'СПО-15' );
 
-
-
-SELECT * FROM "Group"
+SELECT * FROM "Group";
