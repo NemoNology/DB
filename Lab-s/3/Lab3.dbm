@@ -193,7 +193,7 @@ The number of the semester during which the load is carried out]]></comment>
 	 dst-table="public.&quot;Professor - Discipline&quot;"
 	 src-required="true" dst-required="false">
 	<label ref-type="name-label">
-		<position x="-6.00659" y="-42.1323"/>
+		<position x="18.8638" y="-24.5323"/>
 	</label>
 </relationship>
 
@@ -221,7 +221,11 @@ The number of the semester during which the load is carried out]]></comment>
 	 custom-color="#7164ce"
 	 src-table="public.&quot;Professor - Discipline&quot;"
 	 dst-table="public.&quot;Load&quot;"
-	 src-required="false" dst-required="false"/>
+	 src-required="false" dst-required="false">
+	<label ref-type="name-label">
+		<position x="10.6455" y="-19.5323"/>
+	</label>
+</relationship>
 
 <relationship name="Group_has_many_Load" type="rel1n" layer="0"
 	 src-col-pattern="{sc}_{st}"
