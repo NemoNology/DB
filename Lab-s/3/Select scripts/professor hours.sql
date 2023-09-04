@@ -1,3 +1,6 @@
+-- суммарное количество часов, запланированное на каждого преподавателя;
+-- the total number of hours planned for each teacher;
+
 SELECT "Patronymic", "First name", SUM(l."Number of hours") AS "Total hours"
 FROM "Professor" p
 
