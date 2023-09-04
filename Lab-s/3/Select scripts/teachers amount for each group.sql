@@ -7,8 +7,6 @@ AS
 (
 	SELECT COUNT (DISTINCT "Semester number") / 2 AS year 
 	FROM "Load"
-
-	-- WHERE "Semester number" < 3
 )
 
 SELECT "ID_Group", 
