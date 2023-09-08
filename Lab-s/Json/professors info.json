@@ -1,0 +1,506 @@
+[
+  {
+    "name": "Артёмович Егор",
+    "Lessons amount by semester": 6,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 1
+  },
+  {
+    "name": "Артёмович Егор",
+    "Lessons amount by semester": 11,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 2
+  },
+  {
+    "name": "Артёмович Егор",
+    "Lessons amount by semester": 3,
+    "The latest lesson by time at semester": 3,
+    "Semester number": 3
+  },
+  {
+    "name": "Артёмович Егор",
+    "Lessons amount by semester": 6,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 4
+  },
+  {
+    "name": "Артёмович Егор",
+    "Lessons amount by semester": 3,
+    "The latest lesson by time at semester": 5,
+    "Semester number": 5
+  },
+  {
+    "name": "Артёмович Егор",
+    "Lessons amount by semester": 10,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 6
+  },
+  {
+    "name": "Владимирович Давид",
+    "Lessons amount by semester": 9,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 1
+  },
+  {
+    "name": "Владимирович Давид",
+    "Lessons amount by semester": 7,
+    "The latest lesson by time at semester": 5,
+    "Semester number": 2
+  },
+  {
+    "name": "Владимирович Давид",
+    "Lessons amount by semester": 7,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 3
+  },
+  {
+    "name": "Владимирович Давид",
+    "Lessons amount by semester": 9,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 4
+  },
+  {
+    "name": "Владимирович Давид",
+    "Lessons amount by semester": 11,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 5
+  },
+  {
+    "name": "Владимирович Давид",
+    "Lessons amount by semester": 13,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 6
+  },
+  {
+    "name": "Владимирович Станислав",
+    "Lessons amount by semester": 5,
+    "The latest lesson by time at semester": 4,
+    "Semester number": 1
+  },
+  {
+    "name": "Владимирович Станислав",
+    "Lessons amount by semester": 5,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 2
+  },
+  {
+    "name": "Владимирович Станислав",
+    "Lessons amount by semester": 11,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 3
+  },
+  {
+    "name": "Владимирович Станислав",
+    "Lessons amount by semester": 11,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 4
+  },
+  {
+    "name": "Владимирович Станислав",
+    "Lessons amount by semester": 12,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 5
+  },
+  {
+    "name": "Владимирович Станислав",
+    "Lessons amount by semester": 11,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 6
+  },
+  {
+    "name": "Даниилович Константин",
+    "Lessons amount by semester": 5,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 1
+  },
+  {
+    "name": "Даниилович Константин",
+    "Lessons amount by semester": 6,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 2
+  },
+  {
+    "name": "Даниилович Константин",
+    "Lessons amount by semester": 7,
+    "The latest lesson by time at semester": 5,
+    "Semester number": 3
+  },
+  {
+    "name": "Даниилович Константин",
+    "Lessons amount by semester": 10,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 4
+  },
+  {
+    "name": "Даниилович Константин",
+    "Lessons amount by semester": 9,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 5
+  },
+  {
+    "name": "Даниилович Константин",
+    "Lessons amount by semester": 6,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 6
+  },
+  {
+    "name": "Денисович Михаил",
+    "Lessons amount by semester": 14,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 1
+  },
+  {
+    "name": "Денисович Михаил",
+    "Lessons amount by semester": 11,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 2
+  },
+  {
+    "name": "Денисович Михаил",
+    "Lessons amount by semester": 11,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 3
+  },
+  {
+    "name": "Денисович Михаил",
+    "Lessons amount by semester": 5,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 4
+  },
+  {
+    "name": "Денисович Михаил",
+    "Lessons amount by semester": 11,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 5
+  },
+  {
+    "name": "Денисович Михаил",
+    "Lessons amount by semester": 6,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 6
+  },
+  {
+    "name": "Егоровна Дарья",
+    "Lessons amount by semester": 9,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 1
+  },
+  {
+    "name": "Егоровна Дарья",
+    "Lessons amount by semester": 14,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 2
+  },
+  {
+    "name": "Егоровна Дарья",
+    "Lessons amount by semester": 9,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 3
+  },
+  {
+    "name": "Егоровна Дарья",
+    "Lessons amount by semester": 8,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 4
+  },
+  {
+    "name": "Егоровна Дарья",
+    "Lessons amount by semester": 10,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 5
+  },
+  {
+    "name": "Егоровна Дарья",
+    "Lessons amount by semester": 10,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 6
+  },
+  {
+    "name": "Иванович Денис",
+    "Lessons amount by semester": 12,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 1
+  },
+  {
+    "name": "Иванович Денис",
+    "Lessons amount by semester": 9,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 2
+  },
+  {
+    "name": "Иванович Денис",
+    "Lessons amount by semester": 6,
+    "The latest lesson by time at semester": 5,
+    "Semester number": 3
+  },
+  {
+    "name": "Иванович Денис",
+    "Lessons amount by semester": 9,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 4
+  },
+  {
+    "name": "Иванович Денис",
+    "Lessons amount by semester": 10,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 5
+  },
+  {
+    "name": "Иванович Денис",
+    "Lessons amount by semester": 8,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 6
+  },
+  {
+    "name": "Игоревич Арсений",
+    "Lessons amount by semester": 7,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 1
+  },
+  {
+    "name": "Игоревич Арсений",
+    "Lessons amount by semester": 14,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 2
+  },
+  {
+    "name": "Игоревич Арсений",
+    "Lessons amount by semester": 12,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 3
+  },
+  {
+    "name": "Игоревич Арсений",
+    "Lessons amount by semester": 11,
+    "The latest lesson by time at semester": 5,
+    "Semester number": 4
+  },
+  {
+    "name": "Игоревич Арсений",
+    "Lessons amount by semester": 12,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 5
+  },
+  {
+    "name": "Игоревич Арсений",
+    "Lessons amount by semester": 5,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 6
+  },
+  {
+    "name": "Макарович Борис",
+    "Lessons amount by semester": 9,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 1
+  },
+  {
+    "name": "Макарович Борис",
+    "Lessons amount by semester": 3,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 2
+  },
+  {
+    "name": "Макарович Борис",
+    "Lessons amount by semester": 10,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 3
+  },
+  {
+    "name": "Макарович Борис",
+    "Lessons amount by semester": 12,
+    "The latest lesson by time at semester": 5,
+    "Semester number": 4
+  },
+  {
+    "name": "Макарович Борис",
+    "Lessons amount by semester": 11,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 5
+  },
+  {
+    "name": "Макарович Борис",
+    "Lessons amount by semester": 12,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 6
+  },
+  {
+    "name": "Максимович Артём",
+    "Lessons amount by semester": 4,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 1
+  },
+  {
+    "name": "Максимович Артём",
+    "Lessons amount by semester": 6,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 2
+  },
+  {
+    "name": "Максимович Артём",
+    "Lessons amount by semester": 5,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 3
+  },
+  {
+    "name": "Максимович Артём",
+    "Lessons amount by semester": 6,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 4
+  },
+  {
+    "name": "Максимович Артём",
+    "Lessons amount by semester": 6,
+    "The latest lesson by time at semester": 4,
+    "Semester number": 5
+  },
+  {
+    "name": "Максимович Артём",
+    "Lessons amount by semester": 11,
+    "The latest lesson by time at semester": 5,
+    "Semester number": 6
+  },
+  {
+    "name": "Маркович Мирон",
+    "Lessons amount by semester": 10,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 1
+  },
+  {
+    "name": "Маркович Мирон",
+    "Lessons amount by semester": 10,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 2
+  },
+  {
+    "name": "Маркович Мирон",
+    "Lessons amount by semester": 7,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 3
+  },
+  {
+    "name": "Маркович Мирон",
+    "Lessons amount by semester": 10,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 4
+  },
+  {
+    "name": "Маркович Мирон",
+    "Lessons amount by semester": 11,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 5
+  },
+  {
+    "name": "Маркович Мирон",
+    "Lessons amount by semester": 11,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 6
+  },
+  {
+    "name": "Михайловна Дарья",
+    "Lessons amount by semester": 11,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 1
+  },
+  {
+    "name": "Михайловна Дарья",
+    "Lessons amount by semester": 13,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 2
+  },
+  {
+    "name": "Михайловна Дарья",
+    "Lessons amount by semester": 10,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 3
+  },
+  {
+    "name": "Михайловна Дарья",
+    "Lessons amount by semester": 8,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 4
+  },
+  {
+    "name": "Михайловна Дарья",
+    "Lessons amount by semester": 15,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 5
+  },
+  {
+    "name": "Михайловна Дарья",
+    "Lessons amount by semester": 8,
+    "The latest lesson by time at semester": 4,
+    "Semester number": 6
+  },
+  {
+    "name": "Николаевич Вадим",
+    "Lessons amount by semester": 11,
+    "The latest lesson by time at semester": 5,
+    "Semester number": 1
+  },
+  {
+    "name": "Николаевич Вадим",
+    "Lessons amount by semester": 5,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 2
+  },
+  {
+    "name": "Николаевич Вадим",
+    "Lessons amount by semester": 8,
+    "The latest lesson by time at semester": 5,
+    "Semester number": 3
+  },
+  {
+    "name": "Николаевич Вадим",
+    "Lessons amount by semester": 11,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 4
+  },
+  {
+    "name": "Николаевич Вадим",
+    "Lessons amount by semester": 6,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 5
+  },
+  {
+    "name": "Николаевич Вадим",
+    "Lessons amount by semester": 5,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 6
+  },
+  {
+    "name": "Романовна София",
+    "Lessons amount by semester": 8,
+    "The latest lesson by time at semester": 5,
+    "Semester number": 1
+  },
+  {
+    "name": "Романовна София",
+    "Lessons amount by semester": 7,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 2
+  },
+  {
+    "name": "Романовна София",
+    "Lessons amount by semester": 12,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 3
+  },
+  {
+    "name": "Романовна София",
+    "Lessons amount by semester": 8,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 4
+  },
+  {
+    "name": "Романовна София",
+    "Lessons amount by semester": 12,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 5
+  },
+  {
+    "name": "Романовна София",
+    "Lessons amount by semester": 2,
+    "The latest lesson by time at semester": 6,
+    "Semester number": 6
+  }
+]
