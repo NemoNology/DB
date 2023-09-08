@@ -23,3 +23,5 @@ CREATE OR REPLACE TRIGGER on_update_work_experience
 	BEFORE INSERT OR UPDATE OF "Work experience" ON "Professor"
 	FOR EACH ROW 
 	EXECUTE PROCEDURE update_work_experience();
+	
+UPDATE "Professor" SET "Work experience" = 88 WHERE "ID" = 7; 
