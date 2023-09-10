@@ -8,6 +8,7 @@ $$
 BEGIN
 
 	UPDATE "Professor" SET "Age" = "Age" + 1;
+	UPDATE "Professor" SET "Work experience" = "Work experience" + 1;
 	RETURN NEW;
 
 END
