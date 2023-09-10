@@ -159,7 +159,7 @@ The number of the semester during which the load is carried out]]></comment>
 	</customidxs>
 </table>
 
-<table name="Professor - Discipline" layer="0" collapse-mode="2" max-obj-count="4" z-value="0">
+<table name="Professor - Discipline" layer="0" collapse-mode="2" max-obj-count="3" z-value="0">
 	<schema name="public"/>
 	<role name="postgres"/>
 	<comment><![CDATA[Ограничение цлостности: Может ли преподаватель по математике вести лекции по русскому языку? - Нет]]></comment>
@@ -209,10 +209,6 @@ The number of the semester during which the load is carried out]]></comment>
 		<position x="0.877607" y="-16.9323"/>
 	</label>
 </relationship>
-
-<constraint name="Professor - Discipline_uq" type="uq-constr" table="public.&quot;Professor - Discipline&quot;">
-	<columns names="ID_Professor,ID_Academic discipline" ref-type="src-columns"/>
-</constraint>
 
 <relationship name="Professor - Discipline_has_many_Load" type="rel1n" layer="0"
 	 src-col-pattern="{sc}_{st}"
