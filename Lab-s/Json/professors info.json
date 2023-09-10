@@ -1,506 +1,184 @@
 [
   {
-    "name": "Артёмович Егор",
-    "Lessons amount by semester": 6,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 1
-  },
-  {
-    "name": "Артёмович Егор",
-    "Lessons amount by semester": 11,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 2
-  },
-  {
-    "name": "Артёмович Егор",
-    "Lessons amount by semester": 3,
-    "The latest lesson by time at semester": 3,
-    "Semester number": 3
-  },
-  {
-    "name": "Артёмович Егор",
-    "Lessons amount by semester": 6,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 4
-  },
-  {
-    "name": "Артёмович Егор",
-    "Lessons amount by semester": 3,
-    "The latest lesson by time at semester": 5,
-    "Semester number": 5
-  },
-  {
-    "name": "Артёмович Егор",
-    "Lessons amount by semester": 10,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 6
-  },
-  {
-    "name": "Владимирович Давид",
-    "Lessons amount by semester": 9,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 1
-  },
-  {
-    "name": "Владимирович Давид",
-    "Lessons amount by semester": 7,
-    "The latest lesson by time at semester": 5,
-    "Semester number": 2
-  },
-  {
-    "name": "Владимирович Давид",
-    "Lessons amount by semester": 7,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 3
-  },
-  {
-    "name": "Владимирович Давид",
-    "Lessons amount by semester": 9,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 4
-  },
-  {
-    "name": "Владимирович Давид",
-    "Lessons amount by semester": 11,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 5
-  },
-  {
-    "name": "Владимирович Давид",
-    "Lessons amount by semester": 13,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 6
-  },
-  {
-    "name": "Владимирович Станислав",
-    "Lessons amount by semester": 5,
-    "The latest lesson by time at semester": 4,
-    "Semester number": 1
-  },
-  {
-    "name": "Владимирович Станислав",
-    "Lessons amount by semester": 5,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 2
-  },
-  {
-    "name": "Владимирович Станислав",
-    "Lessons amount by semester": 11,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 3
-  },
-  {
-    "name": "Владимирович Станислав",
-    "Lessons amount by semester": 11,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 4
-  },
-  {
-    "name": "Владимирович Станислав",
-    "Lessons amount by semester": 12,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 5
-  },
-  {
-    "name": "Владимирович Станислав",
-    "Lessons amount by semester": 11,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 6
-  },
-  {
-    "name": "Даниилович Константин",
-    "Lessons amount by semester": 5,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 1
-  },
-  {
-    "name": "Даниилович Константин",
-    "Lessons amount by semester": 6,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 2
-  },
-  {
-    "name": "Даниилович Константин",
-    "Lessons amount by semester": 7,
-    "The latest lesson by time at semester": 5,
-    "Semester number": 3
-  },
-  {
-    "name": "Даниилович Константин",
-    "Lessons amount by semester": 10,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 4
-  },
-  {
-    "name": "Даниилович Константин",
-    "Lessons amount by semester": 9,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 5
-  },
-  {
-    "name": "Даниилович Константин",
-    "Lessons amount by semester": 6,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 6
-  },
-  {
-    "name": "Денисович Михаил",
-    "Lessons amount by semester": 14,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 1
-  },
-  {
-    "name": "Денисович Михаил",
-    "Lessons amount by semester": 11,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 2
-  },
-  {
-    "name": "Денисович Михаил",
-    "Lessons amount by semester": 11,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 3
-  },
-  {
-    "name": "Денисович Михаил",
-    "Lessons amount by semester": 5,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 4
-  },
-  {
-    "name": "Денисович Михаил",
-    "Lessons amount by semester": 11,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 5
-  },
-  {
-    "name": "Денисович Михаил",
-    "Lessons amount by semester": 6,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 6
-  },
-  {
-    "name": "Егоровна Дарья",
-    "Lessons amount by semester": 9,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 1
-  },
-  {
-    "name": "Егоровна Дарья",
-    "Lessons amount by semester": 14,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 2
-  },
-  {
-    "name": "Егоровна Дарья",
-    "Lessons amount by semester": 9,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 3
-  },
-  {
-    "name": "Егоровна Дарья",
-    "Lessons amount by semester": 8,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 4
-  },
-  {
-    "name": "Егоровна Дарья",
-    "Lessons amount by semester": 10,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 5
-  },
-  {
-    "name": "Егоровна Дарья",
-    "Lessons amount by semester": 10,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 6
-  },
-  {
-    "name": "Иванович Денис",
-    "Lessons amount by semester": 12,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 1
-  },
-  {
-    "name": "Иванович Денис",
-    "Lessons amount by semester": 9,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 2
-  },
-  {
-    "name": "Иванович Денис",
-    "Lessons amount by semester": 6,
-    "The latest lesson by time at semester": 5,
-    "Semester number": 3
-  },
-  {
-    "name": "Иванович Денис",
-    "Lessons amount by semester": 9,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 4
-  },
-  {
-    "name": "Иванович Денис",
-    "Lessons amount by semester": 10,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 5
-  },
-  {
-    "name": "Иванович Денис",
-    "Lessons amount by semester": 8,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 6
-  },
-  {
-    "name": "Игоревич Арсений",
-    "Lessons amount by semester": 7,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 1
-  },
-  {
-    "name": "Игоревич Арсений",
-    "Lessons amount by semester": 14,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 2
-  },
-  {
-    "name": "Игоревич Арсений",
-    "Lessons amount by semester": 12,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 3
-  },
-  {
-    "name": "Игоревич Арсений",
-    "Lessons amount by semester": 11,
-    "The latest lesson by time at semester": 5,
-    "Semester number": 4
-  },
-  {
-    "name": "Игоревич Арсений",
-    "Lessons amount by semester": 12,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 5
-  },
-  {
-    "name": "Игоревич Арсений",
-    "Lessons amount by semester": 5,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 6
-  },
-  {
-    "name": "Макарович Борис",
-    "Lessons amount by semester": 9,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 1
-  },
-  {
-    "name": "Макарович Борис",
-    "Lessons amount by semester": 3,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 2
-  },
-  {
-    "name": "Макарович Борис",
-    "Lessons amount by semester": 10,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 3
-  },
-  {
-    "name": "Макарович Борис",
-    "Lessons amount by semester": 12,
-    "The latest lesson by time at semester": 5,
-    "Semester number": 4
-  },
-  {
-    "name": "Макарович Борис",
-    "Lessons amount by semester": 11,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 5
-  },
-  {
-    "name": "Макарович Борис",
-    "Lessons amount by semester": 12,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 6
-  },
-  {
-    "name": "Максимович Артём",
-    "Lessons amount by semester": 4,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 1
-  },
-  {
-    "name": "Максимович Артём",
-    "Lessons amount by semester": 6,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 2
-  },
-  {
-    "name": "Максимович Артём",
-    "Lessons amount by semester": 5,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 3
-  },
-  {
-    "name": "Максимович Артём",
-    "Lessons amount by semester": 6,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 4
-  },
-  {
-    "name": "Максимович Артём",
-    "Lessons amount by semester": 6,
-    "The latest lesson by time at semester": 4,
-    "Semester number": 5
-  },
-  {
-    "name": "Максимович Артём",
-    "Lessons amount by semester": 11,
-    "The latest lesson by time at semester": 5,
-    "Semester number": 6
-  },
-  {
-    "name": "Маркович Мирон",
-    "Lessons amount by semester": 10,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 1
-  },
-  {
-    "name": "Маркович Мирон",
-    "Lessons amount by semester": 10,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 2
-  },
-  {
-    "name": "Маркович Мирон",
-    "Lessons amount by semester": 7,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 3
-  },
-  {
-    "name": "Маркович Мирон",
-    "Lessons amount by semester": 10,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 4
-  },
-  {
-    "name": "Маркович Мирон",
-    "Lessons amount by semester": 11,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 5
-  },
-  {
-    "name": "Маркович Мирон",
-    "Lessons amount by semester": 11,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 6
-  },
-  {
-    "name": "Михайловна Дарья",
-    "Lessons amount by semester": 11,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 1
-  },
-  {
-    "name": "Михайловна Дарья",
-    "Lessons amount by semester": 13,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 2
-  },
-  {
-    "name": "Михайловна Дарья",
-    "Lessons amount by semester": 10,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 3
-  },
-  {
-    "name": "Михайловна Дарья",
-    "Lessons amount by semester": 8,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 4
-  },
-  {
-    "name": "Михайловна Дарья",
-    "Lessons amount by semester": 15,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 5
-  },
-  {
-    "name": "Михайловна Дарья",
-    "Lessons amount by semester": 8,
-    "The latest lesson by time at semester": 4,
-    "Semester number": 6
-  },
-  {
-    "name": "Николаевич Вадим",
-    "Lessons amount by semester": 11,
-    "The latest lesson by time at semester": 5,
-    "Semester number": 1
-  },
-  {
-    "name": "Николаевич Вадим",
-    "Lessons amount by semester": 5,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 2
-  },
-  {
-    "name": "Николаевич Вадим",
-    "Lessons amount by semester": 8,
-    "The latest lesson by time at semester": 5,
-    "Semester number": 3
-  },
-  {
-    "name": "Николаевич Вадим",
-    "Lessons amount by semester": 11,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 4
-  },
-  {
-    "name": "Николаевич Вадим",
-    "Lessons amount by semester": 6,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 5
-  },
-  {
-    "name": "Николаевич Вадим",
-    "Lessons amount by semester": 5,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 6
-  },
-  {
-    "name": "Романовна София",
-    "Lessons amount by semester": 8,
-    "The latest lesson by time at semester": 5,
-    "Semester number": 1
-  },
-  {
-    "name": "Романовна София",
-    "Lessons amount by semester": 7,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 2
-  },
-  {
-    "name": "Романовна София",
-    "Lessons amount by semester": 12,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 3
-  },
-  {
-    "name": "Романовна София",
-    "Lessons amount by semester": 8,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 4
-  },
-  {
-    "name": "Романовна София",
-    "Lessons amount by semester": 12,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 5
-  },
-  {
-    "name": "Романовна София",
-    "Lessons amount by semester": 2,
-    "The latest lesson by time at semester": 6,
-    "Semester number": 6
+    "Professors info": {
+      "Name": "Артёмович Егор",
+      "Lessons": [
+        { "Name": "Социальная работа", "Number of hours": 17 },
+        { "Name": "Социальная работа", "Number of hours": 90 },
+        { "Name": "Туризм", "Number of hours": 61 },
+        { "Name": "Туризм", "Number of hours": 84 },
+        { "Name": "Гостиничный бизнес", "Number of hours": 64 },
+        { "Name": "Гостиничный бизнес", "Number of hours": 112 }
+      ]
+    }
+  },
+  {
+    "Professors info": {
+      "Name": "Владимирович Давид",
+      "Lessons": [
+        { "Name": "Биология", "Number of hours": 54 },
+        { "Name": "Биология", "Number of hours": 115 },
+        { "Name": "Информатика", "Number of hours": 49 },
+        { "Name": "Информатика", "Number of hours": 36 },
+        { "Name": "Программирование", "Number of hours": 99 },
+        { "Name": "Программирование", "Number of hours": 104 }
+      ]
+    }
+  },
+  {
+    "Professors info": {
+      "Name": "Владимирович Станислав",
+      "Lessons": [
+        { "Name": "Экономика", "Number of hours": 47 },
+        { "Name": "Экономика", "Number of hours": 72 },
+        { "Name": "Менеджмент", "Number of hours": 51 },
+        { "Name": "Менеджмент", "Number of hours": 53 },
+        { "Name": "Финансы", "Number of hours": 116 },
+        { "Name": "Финансы", "Number of hours": 111 }
+      ]
+    }
+  },
+  {
+    "Professors info": {
+      "Name": "Даниилович Константин",
+      "Lessons": [
+        { "Name": "Театр", "Number of hours": 86 },
+        { "Name": "Театр", "Number of hours": 80 },
+        { "Name": "Кино", "Number of hours": 55 },
+        { "Name": "Кино", "Number of hours": 28 },
+        { "Name": "Спорт", "Number of hours": 59 },
+        { "Name": "Спорт", "Number of hours": 42 }
+      ]
+    }
+  },
+  {
+    "Professors info": {
+      "Name": "Денисович Михаил",
+      "Lessons": [
+        { "Name": "Медицина", "Number of hours": 49 },
+        { "Name": "Медицина", "Number of hours": 41 },
+        { "Name": "Педагогика", "Number of hours": 99 },
+        { "Name": "Педагогика", "Number of hours": 81 },
+        { "Name": "Психология развития", "Number of hours": 121 },
+        { "Name": "Психология развития", "Number of hours": 107 }
+      ]
+    }
+  },
+  {
+    "Professors info": {
+      "Name": "Егоровна Дарья",
+      "Lessons": [
+        { "Name": "Философия", "Number of hours": 83 },
+        { "Name": "Философия", "Number of hours": 114 },
+        { "Name": "История", "Number of hours": 33 },
+        { "Name": "История", "Number of hours": 113 },
+        { "Name": "Политология", "Number of hours": 125 },
+        { "Name": "Политология", "Number of hours": 26 }
+      ]
+    }
+  },
+  {
+    "Professors info": {
+      "Name": "Иванович Денис",
+      "Lessons": [
+        { "Name": "Дизайн", "Number of hours": 16 },
+        { "Name": "Дизайн", "Number of hours": 75 },
+        { "Name": "Искусство", "Number of hours": 77 },
+        { "Name": "Искусство", "Number of hours": 71 },
+        { "Name": "Музыка", "Number of hours": 69 },
+        { "Name": "Музыка", "Number of hours": 105 }
+      ]
+    }
+  },
+  {
+    "Professors info": {
+      "Name": "Игоревич Арсений",
+      "Lessons": [
+        { "Name": "Иностранный язык", "Number of hours": 27 },
+        { "Name": "Иностранный язык", "Number of hours": 120 },
+        { "Name": "Физическая культура", "Number of hours": 38 },
+        { "Name": "Физическая культура", "Number of hours": 42 },
+        { "Name": "География", "Number of hours": 125 },
+        { "Name": "География", "Number of hours": 22 }
+      ]
+    }
+  },
+  {
+    "Professors info": {
+      "Name": "Макарович Борис",
+      "Lessons": [
+        { "Name": "Геология", "Number of hours": 111 },
+        { "Name": "Геология", "Number of hours": 35 },
+        { "Name": "Астрономия", "Number of hours": 125 },
+        { "Name": "Астрономия", "Number of hours": 101 },
+        { "Name": "Архитектура", "Number of hours": 85 },
+        { "Name": "Архитектура", "Number of hours": 62 }
+      ]
+    }
+  },
+  {
+    "Professors info": {
+      "Name": "Максимович Артём",
+      "Lessons": [
+        { "Name": "Маркетинг", "Number of hours": 93 },
+        { "Name": "Маркетинг", "Number of hours": 118 },
+        { "Name": "Психология", "Number of hours": 121 },
+        { "Name": "Психология", "Number of hours": 91 },
+        { "Name": "Социология", "Number of hours": 53 },
+        { "Name": "Социология", "Number of hours": 88 }
+      ]
+    }
+  },
+  {
+    "Professors info": {
+      "Name": "Маркович Мирон",
+      "Lessons": [
+        { "Name": "Математика", "Number of hours": 85 },
+        { "Name": "Математика", "Number of hours": 84 },
+        { "Name": "Физика", "Number of hours": 47 },
+        { "Name": "Физика", "Number of hours": 23 },
+        { "Name": "Химия", "Number of hours": 37 },
+        { "Name": "Химия", "Number of hours": 66 }
+      ]
+    }
+  },
+  {
+    "Professors info": {
+      "Name": "Михайловна Дарья",
+      "Lessons": [
+        { "Name": "Биохимия", "Number of hours": 67 },
+        { "Name": "Биохимия", "Number of hours": 30 },
+        { "Name": "Генетика", "Number of hours": 68 },
+        { "Name": "Генетика", "Number of hours": 74 },
+        { "Name": "Микробиология", "Number of hours": 88 },
+        { "Name": "Микробиология", "Number of hours": 20 }
+      ]
+    }
+  },
+  {
+    "Professors info": {
+      "Name": "Николаевич Вадим",
+      "Lessons": [
+        { "Name": "Право", "Number of hours": 110 },
+        { "Name": "Право", "Number of hours": 85 },
+        { "Name": "Лингвистика", "Number of hours": 28 },
+        { "Name": "Лингвистика", "Number of hours": 104 },
+        { "Name": "Литературоведение", "Number of hours": 114 },
+        { "Name": "Литературоведение", "Number of hours": 26 }
+      ]
+    }
+  },
+  {
+    "Professors info": {
+      "Name": "Романовна София",
+      "Lessons": [
+        { "Name": "Журналистика", "Number of hours": 122 },
+        { "Name": "Журналистика", "Number of hours": 52 },
+        { "Name": "Реклама", "Number of hours": 117 },
+        { "Name": "Реклама", "Number of hours": 105 },
+        { "Name": "Связи с общественностью", "Number of hours": 27 },
+        { "Name": "Связи с общественностью", "Number of hours": 81 }
+      ]
+    }
   }
 ]
